@@ -16,6 +16,9 @@ const Context = (() => {
         sheet: {
             id: props.getProperty('SHEET_ID'),
             name: 'log'
+        },
+        notification: {
+            lineToken: props.getProperty('LINE_TOKEN'),
         }
     };
 
